@@ -1,0 +1,6 @@
+MX6SABRESD BOARD
+M:	Yuriy Zubkov <utlark@ya.ru>
+S:	Maintained
+F:	board/saut/mx6sodimm/
+F:	include/configs/mx6sodimm
+F:	configs/mx6qsodimm_defconfig

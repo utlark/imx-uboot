@@ -468,6 +468,15 @@ config TARGET_MX6QSABRESD
     select TARGET_MX6SABRESD_COMMON
     select MX6Q
 
+config TARGET_MX6SODIMM
+	bool "mx6sodimm"
+	select BOARD_EARLY_INIT_F
+	select BOARD_LATE_INIT
+	select DM
+	select DM_THERMAL
+	select MX6Q
+	imply CMD_DM
+
 config TARGET_MX6QPSABRESD
 	bool "mx6qpsabresd"
     select TARGET_MX6SABRESD_COMMON
@@ -861,6 +870,7 @@ source "board/freescale/mx6qarm2/Kconfig"
 source "board/freescale/mx6memcal/Kconfig"
 source "board/freescale/mx6sabreauto/Kconfig"
 source "board/freescale/mx6sabresd/Kconfig"
+source "board/saut/mx6sodimm/Kconfig"
 source "board/freescale/mx6slevk/Kconfig"
 source "board/freescale/mx6sll_val/Kconfig"
 source "board/freescale/mx6sllevk/Kconfig"

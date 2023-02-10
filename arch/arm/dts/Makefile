@@ -660,6 +660,7 @@ dtb-y += \
 	imx6q-sabreauto-gpmi-weim.dtb \
 	imx6q-sabrelite.dtb \
 	imx6q-sabresd.dtb \
+	imx6q-sodimm.dtb \
 	imx6q-arm2.dtb \
 	imx6q-pop-arm2.dtb \
 	imx6q-tbs2910.dtb \
