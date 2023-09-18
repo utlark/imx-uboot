@@ -37,8 +37,8 @@
 		"echo Booting from mmc...;" \
 		"mmc dev 2;" \
 		"ext4load mmc 2:1 0x10800000 /boot/zImage;" \
-		"ext4load mmc 2:1 0x11C00000 /boot/imx6q-sodimm.dtb;" \
-		"bootz 0x10800000 - 0x11C00000;"
+		"ext4load mmc 2:1 0x12C00000 /boot/imx6q-sodimm.dtb;" \
+		"bootz 0x10800000 - 0x12C00000;"
 
 	#define	CONFIG_ARP_TIMEOUT	200UL
 
